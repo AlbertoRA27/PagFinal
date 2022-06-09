@@ -1,0 +1,186 @@
+/* Formulario */
+body
+{
+margin: 0;
+} 
+.container 
+{
+  margin-top: 3%;
+  color: rgb(0, 0, 0);
+}
+header
+    {
+      width: 100%;
+      height: 20px;
+      padding: 10px;
+      font-family:fantasy;
+      font-style:oblique;
+      background-size: cover;
+    }
+.header .navbar{
+      
+    background-color: transparent !important;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family:fantasy;
+    
+  } 
+
+.bkgrd{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+
+.form-login {
+    width: 500px;
+    height: 620px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #fff;
+    padding: 20px 30px;
+    border-top: 4px solid #fff;
+    color: white;
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+
+
+  
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+ 
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*:::::Pie de Pagina*/
+footer
+{
+    color: #fff;
+    font-size: large;
+    background-image: url(../img/Watcher.jpg);
+
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color:#0a1a2a;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(212, 15, 15);
+    
+}
+.pie-pagina .grupo-2{
+    background-color: #020507;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

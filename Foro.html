@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title >Foro Marvelita</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/Marvel_Logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> 
+
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<link rel='stylesheet' href="CSS/estiloforo.css">  
+   
+    <link href="Index.html">
+    <style>
+    </style>
+</head>
+
+<body>
+<!-- SECCION DE LA BARRA DE NAVEGACION -->
+<header class="header">
+  <nav class="navbar is-active" role="navigation" aria-label="main navigation">
+      
+    <div class="navbar-brand">
+        <a class="navbar-item" href="Index.html">
+          <img src="img/Marvel_Logo.png" style="width: 100%;">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="barradenavegacion">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="barradenavegacion" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="Index.html">
+            INICIO
+          </a>
+    
+          <a class="navbar-item" href="Galeria.html">
+            GALERIA
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link is is-arrowless">
+              ACERCA DE
+            </a>
+  
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="Peliculas.html">
+                PELICULAS y SERIES
+              </a>
+              <a class="navbar-item" href="Juegos.html">
+                JUEGOS
+              </a>
+            </div>
+          </div>
+          <a class="navbar-item" href="Foro.html">
+            FORO
+            </a>
+        </div>
+      </div>
+</nav>
+</header>
+   
+<!-- PARTE DE INFO -->
+<div class="container-fluid text-justify">
+    <!-- Video de Fondo -->
+    <div class="bkgrd">
+      <video muted autoplay loop src="Video/intro-marvel-hd.mp4">
+      </video>
+  </div>
+  
+    <section class="form-login">
+        <h5>Comunidad Marvelita</h5>
+        
+        
+        <form action="registro.php" method="POST">
+        <input class="controls" type="text" name="nombre" value="" placeholder="Nombre">
+        <input class="controls" type="text" name="email" value="" placeholder="Correo Electronico">
+        <input class="controls" type="password" name="pass" value="" placeholder="Contraseña">
+        <input class="buttons" type="submit" name="" value="Registrar">
+
+        <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+        <div class="alert alert-warning" role="alert">
+        </div>
+      </form>
+      
+    </section>  
+
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div>
+                <figure>
+                    <h1>DONDE NOS UBICAMOS</h1> <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.702971038841!2d-99.12871458533556!3d19.511410943212294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9c228b343cf%3A0x2f403a140132e3e7!2sUPIITA%20-%20Unidad%20Profesional%20Interdisciplinaria%20en%20Ingenier%C3%ADa%20y%20Tecnolog%C3%ADas%20Avanzadas%20IPN!5e0!3m2!1ses-419!2smx!4v1654489399534!5m2!1ses-419!2smx"
+                     width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     <p>UNIDAD PROFESIONAL INTERDISCIPLINARIA EN INGENIERIA Y TECNOLOGIAS AVANZADASA</p>
+                </figure>
+            </div>
+            <div>
+                <h1>SOBRE MI</h1> <br>
+                <p>Alberto Ruán Aldana - Ing.WEB</p><br>
+                <p>ESTUDIANTE DE INGENIERIA TELEMATICA DEL IPN</p>
+              
+            </div>
+            <div>
+                <h2>SIGUEME EN</h2> <br>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/alberto.ruanaldana" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/albert_ra27/" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/Alberto_Ruan27" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot; integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot; integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+  el.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = el.dataset.target;
+    const $target = document.getElementById(target);
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    el.classList.toggle('is-active');
+    $target.classList.toggle('is-active');
+
+  });
+});
+});
+  </script>
+</body> 
+</html>
